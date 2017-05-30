@@ -6,8 +6,8 @@
         <title>Hello Java EE 06 Continuous Delivery!</title>
     </head>
     <body>
-        <h1>Hello Java EE 13 Continuous Delivery!</h1>
-        <h1>Hello New Java EE 16 Continuous Delivery!</h1>
+        <h1>Hello Java EE 22 Continuous Delivery!</h1>
+        <h1>Hello New Java EE 23 Continuous Delivery!</h1>
         <h1>Hello Version IT</h1>
         
         GET all the <a href="${pageContext.request.contextPath}/resources/persons"/>persons</a>.
