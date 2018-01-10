@@ -29,6 +29,18 @@
             <email>arun.gupta@gmail.com</email>
         </developer>
     </developers>
+    <distributionManagement>
+							<repository>
+        <id>central</id>
+        <name>e35afbe58bb5-releases</name>
+        <url>http://35.185.94.193:8081/artifactory/westpac_test</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>e35afbe58bb5-snapshots</name>
+        <url>http://35.185.94.193:8081/artifactory/westpac_test</url>
+    </snapshotRepository>
+</distributionManagement>
             <build>
     	<finalName>javaee7-simple-sample</finalName>
         <pluginManagement>
