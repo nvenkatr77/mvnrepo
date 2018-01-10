@@ -30,15 +30,19 @@
         </developer>
     </developers>
     <distributionManagement>
-							<repository>
+	<repository>
         <id>central</id>
         <name>e35afbe58bb5-releases</name>
         <url>http://35.185.94.193:8081/artifactory/westpac_test</url>
+	<username>admin</username>
+        <password>password</password>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
         <name>e35afbe58bb5-snapshots</name>
         <url>http://35.185.94.193:8081/artifactory/westpac_test</url>
+	<username>admin</username>
+        <password>password</password>
     </snapshotRepository>
 </distributionManagement>
             <build>
