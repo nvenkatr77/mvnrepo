@@ -29,14 +29,7 @@
             <email>arun.gupta@gmail.com</email>
         </developer>
     </developers>
-            <publisher>
-            <contextUrl>http://35.185.94.193:8081/artifactory</contextUrl>
-            <username>admin</username>
-            <password>password</password>
-            <repoKey>westpac_test</repoKey>
-            <snapshotRepoKey>westpac_test</snapshotRepoKey>
-            </publisher>
-        <build>
+            <build>
     	<finalName>javaee7-simple-sample</finalName>
         <pluginManagement>
             <plugins>
@@ -114,6 +107,13 @@
                                 <goals>
                                     <goal>jar</goal>
                                 </goals>
+                                <publisher>
+                                    <contextUrl>http://35.185.94.193:8081/artifactory</contextUrl>
+                                    <username>admin</username>
+                                    <password>password</password>
+                                    <repoKey>westpac_test</repoKey>
+                                    <snapshotRepoKey>westpac_test</snapshotRepoKey>
+                                </publisher>
                             </execution>
                         </executions>
                     </plugin>
