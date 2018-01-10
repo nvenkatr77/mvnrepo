@@ -5,7 +5,7 @@
     <artifactId>javaee7-simple-sample</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
-    <name>javaee7-simple-sample</name>
+    <name>westpac-sample</name>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
@@ -30,17 +30,17 @@
         </developer>
     </developers>
     <distributionManagement>
-        <repository>
-            <id>deployment</id>
-            <name>Internal Releases</name>
-            <url>http://104.196.191.147:8081/artifactory/test-repo</url>
-        </repository>
-        <snapshotRepository>
-            <id>deployment</id>
-            <name>Internal Snapshot Releases</name>
-            <url>http://104.196.191.147:8081/artifactory/test-repo</url>
-        </snapshotRepository>
-    </distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>e35afbe58bb5-releases</name>
+        <url>http://35.185.94.193:8081/artifactory/westpac_test</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>e35afbe58bb5-snapshots</name>
+        <url>http://35.185.94.193:8081/artifactory/westpac_test</url>
+    </snapshotRepository>
+</distributionManagement>
     <build>
     	<finalName>javaee7-simple-sample</finalName>
         <pluginManagement>
